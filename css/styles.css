@@ -11,3 +11,47 @@ h1 {
 }
 
 
+#listaUsuarios {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  
+}
+
+#listaUsuarios li {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+
+.usuario-info {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius:10px;
+}
+
+
+.foto img {
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+
+}
+
+.usuario-bottom {
+  padding: 10px;
+}
+
+.bold-text {
+  font-weight: 700;
+
+}
